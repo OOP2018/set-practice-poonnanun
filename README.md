@@ -31,3 +31,4 @@ Answer the questions in the exercises here. Push your answer and code to Github 
 #### Answer It'll sort by the letter.
 
 * Could we make `setExplorer` work with either Set or List?  How?
+#### Answer yes, just change from set to collections.

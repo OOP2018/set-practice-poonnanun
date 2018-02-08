@@ -19,6 +19,7 @@ Answer the questions in the exercises here. Push your answer and code to Github 
 #### Answer No,it's not guarrantee that it'll remain same constant overtime.
 
 * what is the command to remove all elements from a `set`?
+#### Answer set.removeAll(set);
 
 * When you add elements in a different order and print them, did the order change? 
 #### Answer No matter you change the order of adding the print order will be the same.

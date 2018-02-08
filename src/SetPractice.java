@@ -10,6 +10,11 @@ public class SetPractice {
 	 * @parameter values zero or more Strings to add to set
 	 */
 	public static void addAll(Set<String> set, String ...values) {
+		for(String a: values){
+			System.out.print(a+" ");
+			set.add(a);
+		}
+		System.out.println();
 		// add all the values to the set. 
 		// print each one as you add it
 	}
@@ -18,6 +23,11 @@ public class SetPractice {
 	 * Print all the elements in a set, using an Iterator.
 	 */
 	public static void print(Set<String> set) {
+		Iterator<String> iter = set.iterator();
+		while(iter.hasNext()){
+			System.out.print(iter.next()+" ");
+		}
+		System.out.println();
 		// create an Iterator using set.iterator()
 		// then use the iterator to print everything in the set
 	}
@@ -27,11 +37,12 @@ public class SetPractice {
 	 */
 	public static void setExplorer( ) {
 		// 1. Create a HashSet and add strings: dog, ant, bird, elephant, cat
-		
+		Set set = new HashSet<>();
+		addAll(set, "dog", "cat", "ant");
 		
 		// 2. Print elements in the set using an Iterator over the Set.
 		// You're going to need to do this again, so write a method print(Set set) to do it.
-		
+		print(set);
 		
 		// 3. are the elements printed in same order than you added them? 
 		// What does this tell you about Sets?

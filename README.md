@@ -20,9 +20,9 @@ No,it's not guarrantee that it'll remain same constant overtime.
 
 * what is the command to remove all elements from a `set`?
 
-* When you add elements in a different order and print them, did the order change?
+* When you add elements in a different order and print them, did the order change? No matter you change the order of adding the print order will be the same.
 
-* Can you add a duplicate "cat" and "dog" to set?
+* Can you add a duplicate "cat" and "dog" to set? No, it won't add for you.
 
 * What is the result when you use TreeSet instead of HashSet?
 
